@@ -1,3 +1,5 @@
+package odevler;
+
 import java.util.Scanner;
 
 public class SinifiGecmeDurumu {
@@ -35,7 +37,5 @@ public class SinifiGecmeDurumu {
             System.out.println("Sinifta Kaldiniz....");
 
         System.out.println("Ortalamaniz : " + ort);
-
-
     }
 }
