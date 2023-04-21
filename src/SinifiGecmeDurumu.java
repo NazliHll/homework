@@ -26,6 +26,15 @@ public class SinifiGecmeDurumu {
         int muz = (muzik > 100 || muzik < 0) ? 0 : muzik;
 
         int toplam = (mat + fiz + tur + kim + muz);
+        double ort = toplam / 5.0;
+
+        if (ort >= 55 && ort <= 100)
+            System.out.println("Tebrikler...Sinifi Geçtiniz.");
+
+        else if (ort >= 0 && ort < 55)
+            System.out.println("Sinifta Kaldiniz....");
+
+        System.out.println("Ortalamaniz : " + ort);
 
 
     }
