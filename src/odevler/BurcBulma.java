@@ -37,7 +37,7 @@ public class BurcBulma {
         if (month == 2) {
             if (day >= 1 && day <= 28) {
                 if (day < 20) {
-                    burc = "OĞLAK BURCU";
+                    burc = "KOVA BURCU";
                     System.out.println(burc);
                 } else {
                     burc = "BALIK BURCU";
