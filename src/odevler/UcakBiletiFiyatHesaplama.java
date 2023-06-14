@@ -55,7 +55,7 @@ public class UcakBiletiFiyatHesaplama {
 
                     else if (age >= 0 && age < 12) {
                         price = (((km * 0.10) * 0.5) * 0.8) * 2;
-                        System.out.println("Gidiş Dönüş Bilet Fiyatı: " + price + "\nİndirim Uygulanmıştır.");
+                        System.out.println("Gidiş Dönüş Bilet Fiyatı: " + price + "<\nİndirim Uygulanmıştır.");
 
                     } else if (age <= 24) {
                         price = (((km * 0.10) * 0.9) * 0.8) * 2;
