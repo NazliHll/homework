@@ -12,11 +12,11 @@ public class BurcBulma {
 
         Scanner input = new Scanner(System.in);
 
-        System.out.print("Lütfen doğduğunuz ayı \"sayi\" olarak giriniz: ");
+        System.out.print("Lütfen dogdugunuz ayi \"sayi\" olarak giriniz: ");
         month = input.nextByte();
 
 
-        System.out.print("Lütfen doğduğunuz günü \"sayı\" olarak giriniz: ");
+        System.out.print("Lütfen dogdugunuz gunu \"sayi\" olarak giriniz: ");
         day = input.nextByte();
 
 
@@ -30,7 +30,7 @@ public class BurcBulma {
                     System.out.println(burc);
                 }
             } else {
-                System.out.println("Hatalı giriş yaptınız!");
+                System.out.println("Hatali giris yaptiniz!");
             }
         }
 
@@ -44,7 +44,7 @@ public class BurcBulma {
                     System.out.println(burc);
                 }
             } else {
-                System.out.println("Hatalı giriş yaptınız!");
+                System.out.println("Hatali giris yaptiniz!");
             }
         }
 
@@ -55,7 +55,7 @@ public class BurcBulma {
                 } else burc = "KOÇ BURCU";
                 System.out.println(burc);
             } else {
-                System.out.println("Hatalı giriş yaptınız!");
+                System.out.println("Hatali giris yaptiniz!");
             }
         }
 
@@ -66,7 +66,7 @@ public class BurcBulma {
                 } else burc = "BOĞA BURCU";
                 System.out.println(burc);
             } else {
-                System.out.println("Hatalı giriş yaptınız!");
+                System.out.println("Hatali giris yaptiniz!");
             }
         }
 
@@ -77,7 +77,7 @@ public class BurcBulma {
                 } else burc = "İKİZLER BURCU";
                 System.out.println(burc);
             } else {
-                System.out.println("Hatalı giriş yaptınız!");
+                System.out.println("Hatali giris yaptiniz!");
             }
         }
 
@@ -88,7 +88,7 @@ public class BurcBulma {
                 } else burc = "YENGEÇ BURCU";
                 System.out.println(burc);
             } else {
-                System.out.println("Hatalı giriş yaptınız!");
+                System.out.println("Hatali giris yaptiniz!");
             }
         }
 
@@ -99,7 +99,7 @@ public class BurcBulma {
                 } else burc = "ASLAN BURCU";
                 System.out.println(burc);
             } else {
-                System.out.println("Hatalı giriş yaptınız!");
+                System.out.println("Hatali giris yaptiniz!");
             }
         }
 
@@ -109,7 +109,7 @@ public class BurcBulma {
                     System.out.println("ASLAN BURCU");
                 } else burc = "BAŞAK BURCU";
                 System.out.println(burc);
-            } else System.out.println("Hatalı giriş yaptınız!");
+            } else System.out.println("Hatali giris yaptiniz!");
         }
 
         if (month == 9) {
@@ -118,7 +118,7 @@ public class BurcBulma {
                     System.out.println("BAŞAK BURCU");
                 } else burc = "TERAZİ BURCU";
                 System.out.println(burc);
-            } else System.out.println("Hatalı giriş yaptınız!");
+            } else System.out.println("Hatali giris yaptiniz!");
         }
 
         if (month == 10) {
@@ -127,7 +127,7 @@ public class BurcBulma {
                     System.out.println("TERAZİ BURCU");
                 } else burc = "AKREP BURCU";
                 System.out.println(burc);
-            } else System.out.println("Hatalı giriş yaptınız!");
+            } else System.out.println("Hatali giris yaptiniz!");
         }
 
         if (month == 11) {
@@ -136,7 +136,7 @@ public class BurcBulma {
                     System.out.println("AKREP BURCU");
                 } else burc = "YAY BURCU";
                 System.out.println(burc);
-            } else System.out.println("Hatalı giriş yaptınız!");
+            } else System.out.println("Hatali giris yaptiniz!");
         }
 
         if (month == 12) {
@@ -145,7 +145,7 @@ public class BurcBulma {
                     System.out.println("YAY BURCU");
                 } else burc = "OĞLAK BURCU";
                 System.out.println(burc);
-            } else System.out.println("Hatalı giriş yaptınız!");
+            } else System.out.println("Hatali giris yaptiniz!");
         }
     }
 }
