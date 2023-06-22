@@ -12,5 +12,18 @@ public class TekSayilarinToplaminiBulanProgram {
         do {
             System.out.print("Lutfen bir tam sayi giriniz: ");
             sayi = input.nextInt();
+            if (sayi % 2 == 0) {
+                toplamCift += sayi;
+            }
+
+            if (sayi % 4 == 0) {
+                toplamDordunKati += sayi;
+            }
+
+        } while (sayi % 2 != 1);
+
+        System.out.println("Cift sayilarin toplami: " + toplamCift);
+        System.out.println("Dorde bolunebilen sayilarin toplami: " + toplamDordunKati);
+
     }
 }
