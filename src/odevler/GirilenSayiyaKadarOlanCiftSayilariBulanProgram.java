@@ -1,5 +1,7 @@
 package odevler;
 
+import java.util.Scanner;
+
 public class GirilenSayiyaKadarOlanCiftSayilariBulanProgram {
     public static void main(String[] args) {
         int k, piece = 0, total = 0;
